@@ -90,3 +90,16 @@ p {
  margin-bottom: 1rem;
  max-width: 600px;
 }
+
+.button {
+  background-color: var(--second-text-green);
+  color: var(--default-text-white);
+  padding: .8rem 1.5rem;
+  border-radius: 8px;
+  display: inline-block;
+  transition: backgroun-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #23753e;
+}
