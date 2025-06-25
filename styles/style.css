@@ -63,3 +63,19 @@ p {
   text-decoration: underline;
   color: var(--second-text-green);
 }
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.avatar {
+  width: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.4);
+}
