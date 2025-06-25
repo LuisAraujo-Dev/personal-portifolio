@@ -186,3 +186,14 @@ footer {
   width: 28px;
   margin: 0 0.6rem;
 }
+
+.sectionHidden {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-out;
+}
+
+.sectionVisible {
+  opacity: 1;
+  transform: translateY(0);
+}

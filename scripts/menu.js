@@ -11,4 +11,25 @@ document.addEventListener("DOMContentLoaded", function () {
       navLinks.classList.remove("active");
     });
   });
+
+  const sections = document.querySelector("section");
+
+  const observer = new IntersectionObserver(
+    (entries, observar) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("sectionVisible");
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    {
+      threshold: 0.1,
+    }
+  );
+
+  sections.forEach((section) => {
+    section.classList.add("sectionHidden");
+    observer.observe(section);
+  });
 });
