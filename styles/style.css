@@ -103,3 +103,11 @@ p {
 .button:hover {
   background-color: #23753e;
 }
+
+.project, .cardContent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
