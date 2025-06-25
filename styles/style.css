@@ -79,3 +79,14 @@ p {
   object-fit: cover;
   box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.4);
 }
+
+.main-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.main-description {
+ font-size: 1.2rem;
+ margin-bottom: 1rem;
+ max-width: 600px;
+}
