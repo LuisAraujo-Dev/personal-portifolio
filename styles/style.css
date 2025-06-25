@@ -44,6 +44,11 @@ p {
   margin-bottom: 1rem;
 }
 
+span {
+  color: var(--second-text-green);
+  font-weight: bold;
+}
+
 .nav {
   background-color: var(--dark-blue);
   padding: 1rem;
@@ -56,7 +61,11 @@ p {
   gap: 2rem;
   flex-wrap: wrap;
   justify-content: center;
-  transition: all 3s ease;
+  
+}
+
+.navLinks a {
+ transition: all .3s ease;
 }
 
 .navLinks a:hover {
@@ -71,6 +80,11 @@ p {
   flex-wrap: wrap;
   gap: 2rem;
   margin-top: 2rem;
+}
+
+.itensCenter {
+  display: flex;
+  align-items: center;
 }
 
 .avatar {
