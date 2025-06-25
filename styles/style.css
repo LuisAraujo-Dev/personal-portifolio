@@ -12,6 +12,8 @@
   box-sizing: border-box;
 }
 
+
+
 body {
   font-family: "Poppins", sans-serif;
   line-height: 1.6;
@@ -54,6 +56,23 @@ span {
   padding: 1rem;
   display: flex;
   justify-content: center;
+}
+
+.menuToggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.menuToggle span{
+  width: 25px;
+  height: 3px;
+  background-color: var(--default-text-white);
+  transition: all 0.3s ease;
 }
 
 .navLinks {
