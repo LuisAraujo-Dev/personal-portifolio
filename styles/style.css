@@ -51,9 +51,15 @@ p {
   justify-content: center;
 }
 
-.nav-links {
+.navLinks {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
   justify-content: center;
+  transition: all 3s ease;
+}
+
+.navLinks a:hover {
+  text-decoration: underline;
+  color: var(--second-text-green);
 }
