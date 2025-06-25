@@ -111,3 +111,10 @@ p {
   align-items: center;
   margin-bottom: 2rem;
 }
+
+.projectImage, .imageCertification img{
+  width: 30rem;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
+}
