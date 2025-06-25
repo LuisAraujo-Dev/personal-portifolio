@@ -123,3 +123,16 @@ main p {
   font-size: 1.2rem;
   width: 80%;
 }
+
+.containerContact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.containerContact img {
+  width: 32px;
+  margin-right: 1rem;
+}
