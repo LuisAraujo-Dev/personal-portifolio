@@ -136,3 +136,15 @@ main p {
   width: 32px;
   margin-right: 1rem;
 }
+
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: var(--dark-blue);
+  color: var(--default-text-white);
+}
+
+.footerSocial a img{
+  width: 28px;
+  margin: 0 0.6rem;
+}
