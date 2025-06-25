@@ -12,7 +12,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  const sections = document.querySelector("section");
+  const animatedElements = document.querySelectorAll(
+    "section, .project, .cardContent, .imageCertification"
+  );
 
   const observer = new IntersectionObserver(
     (entries, observar) => {
@@ -28,8 +30,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   );
 
-  sections.forEach((section) => {
-    section.classList.add("sectionHidden");
-    observer.observe(section);
+  animatedElements.forEach((el) => {
+    el.classList.add("sectionHidden");
+    observer.observe(el);
   });
 });

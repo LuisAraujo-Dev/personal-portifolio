@@ -12,7 +12,11 @@
   box-sizing: border-box;
 }
 
-
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
 
 body {
   font-family: "Poppins", sans-serif;
@@ -31,9 +35,7 @@ a {
 }
 
 main {
-  padding: 2rem;
-  max-width: 120rem;
-  margin: 0 auto;
+  padding: 2rem 0;
 }
 
 h1, h2, h3 {
