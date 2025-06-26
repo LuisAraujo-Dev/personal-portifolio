@@ -76,4 +76,16 @@
     min-height: 50px;
     align-items: center;
   }
+
+   section {
+    padding: 0 1rem;
+  }
+
+  section p {
+    max-width: 100%;
+  }
+
+  section h2 {
+    margin-left: 0;
+  }
 }
