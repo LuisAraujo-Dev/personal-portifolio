@@ -247,7 +247,7 @@ span {
   transition: all 1s ease;
 }
 
-.project img:hover{
+.project img:hover {
   transform: scale(1.02);
 }
 
@@ -307,27 +307,51 @@ span {
   width: 90%;
 }
 
-.containerContact {
+.contacts {
   display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
+  justify-content: center;
   align-items: center;
-  margin-top: 1.5rem;
+  flex-direction: column;
 }
 
-.containerContact img {
+.contacts h2 {
+  margin: 2.4rem auto 3.6rem;
+}
+
+.containerContacts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.contact div {
+  gap: 1rem;
+}
+
+.contact div, .contact p{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  flex-wrap: nowrap;
+}
+
+.contact img {
   width: 32px;
-  margin-right: 1rem;
 }
 
 footer {
   text-align: center;
-  padding: 2rem 0;
+  padding: 3rem 0 1rem; 
   background-color: var(--dark-blue);
   color: var(--default-text-white);
 }
 
-.footerSocial a img {
+.footer a img {
   width: 28px;
   margin: 0 0.6rem;
 }
@@ -341,8 +365,4 @@ footer {
 .sectionVisible {
   opacity: 1;
   transform: translateY(0);
-}
-
-.focus {
-  border: solid red;
 }

@@ -194,6 +194,24 @@
     grid-template-columns: 1fr;
   }
 
+  .containerContacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer p{
+    margin-top: 1rem;
+  }
+
+  .footer {
+    gap: .5rem;
+    display: flex;
+    justify-content: center;
+    padding: .5rem auto 0;
+  }
+
   .nav {
     width: 100%;
     padding: 1rem 0.5rem;
