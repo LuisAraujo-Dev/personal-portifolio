@@ -13,9 +13,8 @@
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 100vw;
   margin: 0 auto;
-  padding: 0 1.5rem;
 }
 
 body {
@@ -34,19 +33,14 @@ a {
   color: var(--default-text-white);
 }
 
-main {
-  padding: 2rem 0;
-}
-
 section {
   text-align: justify;
-  padding: 2rem 0;
+  padding: 0;
 }
 
 section p {
    max-width: 900px;
   text-align: justify;
-  margin-bottom: 1.5rem;
 }
 
 h1, h2, h3 {
@@ -59,7 +53,7 @@ h2, h3 {
 
 h2 {
   font-size: 2.8rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2.4rem;
 }
 
 h3 {
@@ -68,6 +62,7 @@ h3 {
 
 p {
   margin-bottom: 1rem;
+  margin: 0 auto 1.5rem;
 }
 
 span {
@@ -124,17 +119,41 @@ span {
 }
 
 .navLinks a:hover {
-  text-decoration: underline;
   color: var(--second-text-green);
 }
 
-.main {
+.profile{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
-  margin-top: 2rem;
+  margin: 4.8rem auto 3.6rem;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4.8rem;
+}
+
+.about h2{
+  width: 50%;
+  margin-top: 2.4rem;
+}
+
+.about p{
+  max-width: 900px;
+  text-align: justify;
+}
+
+#especial{
+  text-align: center;
+  margin-top: 2.4rem;
+  color: var(--second-text-green);
+  font-weight: bold;
 }
 
 .avatar {
@@ -196,7 +215,6 @@ span {
 
 section h2{
   width: 70%;
-  margin: 0 auto 1.5rem;
   align-items: flex-start;
   text-align: left;
 }
@@ -210,7 +228,6 @@ section h2{
 
 .center p{
   max-width: 900px;
-  margin: 0 auto 3.5rem;
   text-align: justify;
 }
 
