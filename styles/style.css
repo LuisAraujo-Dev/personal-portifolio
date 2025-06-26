@@ -296,6 +296,11 @@ span {
   border-radius: 8px;
   object-fit: cover;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.7s ease;
+}
+
+.certification img:hover {
+  transform: scale(1.03);
 }
 
 .certification h3 {
