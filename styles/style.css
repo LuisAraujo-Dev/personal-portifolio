@@ -33,11 +33,6 @@ a {
   color: var(--default-text-white);
 }
 
-section {
-  text-align: justify;
-  padding: 0;
-}
-
 section p {
    max-width: 900px;
   text-align: justify;
@@ -72,13 +67,7 @@ span {
 
 .bgDark {
  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
   background-color: var(--dark-blue);
-  padding: 2rem 0;
 }
 
 .nav {
@@ -213,10 +202,25 @@ span {
   gap: 1.5rem;
 }
 
-section h2{
-  width: 70%;
-  align-items: flex-start;
-  text-align: left;
+.experiences {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2.4rem;
+}
+
+.experiences h2{
+   margin: 2.4rem auto 1.2rem;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.experience h3{
+  margin: 1.2rem auto 0;
 }
 
 .center {
