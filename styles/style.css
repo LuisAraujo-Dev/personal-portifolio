@@ -28,22 +28,30 @@ body {
   overflow-x: hidden;
 }
 
+main p {
+  font-size: 1.2rem;
+  width: 80%;
+}
+
 a {
   text-decoration: none;
   color: var(--default-text-white);
 }
 
 section p {
-   max-width: 900px;
+  max-width: 900px;
   text-align: justify;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: 500;
 }
 
-h2, h3 {
-    color: var(--second-text-green);
+h2,
+h3 {
+  color: var(--second-text-green);
 }
 
 h2 {
@@ -66,7 +74,7 @@ span {
 }
 
 .bgDark {
- width: 100vw;
+  width: 100vw;
   background-color: var(--dark-blue);
 }
 
@@ -88,7 +96,7 @@ span {
   z-index: 1000;
 }
 
-.menuToggle span{
+.menuToggle span {
   width: 25px;
   height: 3px;
   background-color: var(--default-text-white);
@@ -100,18 +108,17 @@ span {
   gap: 2rem;
   flex-wrap: wrap;
   justify-content: center;
-  
 }
 
 .navLinks a {
- transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 .navLinks a:hover {
   color: var(--second-text-green);
 }
 
-.profile{
+.profile {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -128,17 +135,17 @@ span {
   margin-bottom: 4.8rem;
 }
 
-.about h2{
+.about h2 {
   width: 50%;
   margin-top: 2.4rem;
 }
 
-.about p{
+.about p {
   max-width: 900px;
   text-align: justify;
 }
 
-#especial{
+#especial {
   text-align: center;
   margin-top: 2.4rem;
   color: var(--second-text-green);
@@ -152,7 +159,7 @@ span {
   box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.4);
 }
 .description {
-    max-width: 400px;
+  max-width: 400px;
 }
 
 .mainTitle {
@@ -167,20 +174,20 @@ span {
 .highlightSubtitle {
   font-size: 1.8rem;
   font-weight: 500;
-  color: var(--default-text-white); 
+  color: var(--default-text-white);
 }
 
 .mainDescription {
   flex-wrap: wrap;
- font-size: 1.2rem;
- margin-bottom: 1rem;
- width: 500PX;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  width: 500px;
 }
 
 .button {
   background-color: var(--second-text-green);
   color: var(--default-text-white);
-  padding: .8rem 1.5rem;
+  padding: 0.8rem 1.5rem;
   border-radius: 8px;
   display: inline-block;
   transition: backgroun-color 0.3s ease;
@@ -188,18 +195,6 @@ span {
 
 .button:hover {
   background-color: #23753e;
-}
-
-.focus {
-  border: solid red;
-}
-
-.titleImgExperiênces {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 auto 1.5rem;
-  gap: 1.5rem;
 }
 
 .experiences {
@@ -210,8 +205,8 @@ span {
   padding-bottom: 2.4rem;
 }
 
-.experiences h2{
-   margin: 2.4rem auto 1.2rem;
+.experiences h2 {
+  margin: 2.4rem auto 1.2rem;
 }
 
 .experience {
@@ -219,57 +214,97 @@ span {
   flex-direction: column;
   align-items: center;
 }
-.experience h3{
+.experience h3 {
   margin: 1.2rem auto 0;
 }
 
-.center {
+.projects {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
-.center p{
-  max-width: 900px;
-  text-align: justify;
+.projects h2 {
+  margin: 2.4rem auto 1.2rem;
 }
 
-.center h3{
-  max-width: 900px;
-  margin: 0 auto .5rem;
-}
-
-.project, .cardContent {
+.project {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
+  flex-direction: column;
   align-items: center;
   margin-bottom: 2rem;
 }
 
-.projectTitle h3{
-  display: flex;
-  margin: 0 auto;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+.project h3 {
+  margin: 1.2rem auto 0.5rem;
 }
 
-.projectImage, .certification img{
-  width: 60rem;
+.project img {
+  width: 50rem;
   border-radius: 8px;
   object-fit: cover;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: all 1s ease;
+}
+
+.project img:hover{
+  transform: scale(1.02);
+}
+
+.tecnologia {
+  display: flex;
+  margin: 1rem auto;
+  gap: 1rem;
+}
+
+.tecnologia img {
+  width: 32px;
+  transition: all 0.7s ease;
+}
+
+.tecnologia img:hover {
+  transform: scale(1.3);
+}
+
+.certifications {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.certificationsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  justify-items: center;
+  text-align: center;
+}
+
+.certifications h2 {
+  margin: 2.4rem auto 3.6rem;
 }
 
 .certification {
   gap: 1.5rem;
+  width: 510px;
+  margin: 0 1rem 2rem;
 }
 
-main p {
-  font-size: 1.2rem;
-  width: 80%;
+.certification img {
+  width: 500px;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.certification h3 {
+  font-size: 1.6rem;
+  margin: 1rem auto 0.5rem;
+}
+
+.certification p {
+  width: 90%;
 }
 
 .containerContact {
@@ -292,7 +327,7 @@ footer {
   color: var(--default-text-white);
 }
 
-.footerSocial a img{
+.footerSocial a img {
   width: 28px;
   margin: 0 0.6rem;
 }
@@ -306,4 +341,8 @@ footer {
 .sectionVisible {
   opacity: 1;
   transform: translateY(0);
+}
+
+.focus {
+  border: solid red;
 }
