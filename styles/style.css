@@ -361,6 +361,25 @@ footer {
   margin: 0 0.6rem;
 }
 
+footer img {
+  width: 45px;
+}
+
+#marca {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  margin: auto;
+}
+
+#marca p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
 .sectionHidden {
   opacity: 0;
   transform: translateY(50px);
@@ -370,4 +389,22 @@ footer {
 .sectionVisible {
   opacity: 1;
   transform: translateY(0);
+}
+
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: var(--second-text-green);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none; /* Começa invisível */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: opacity 0.3s ease;
 }

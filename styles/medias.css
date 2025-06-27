@@ -201,13 +201,17 @@
     justify-content: center;
   }
 
-  footer p{
+  footer {
     margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
   .footer {
-    gap: .5rem;
-    display: flex;
+    gap: .5rem;    
     justify-content: center;
     padding: .5rem auto 0;
   }
@@ -219,6 +223,10 @@
     min-height: 50px;
     align-items: center;
   }
+
+#marca {
+  margin: auto;
+}
 
    section {
     padding: 0 1rem;
