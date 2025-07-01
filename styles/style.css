@@ -267,6 +267,7 @@ span {
 .tecnologia img {
   width: 32px;
   transition: all 0.7s ease;
+  box-shadow: none;
 }
 
 .tecnologia img:hover {
@@ -368,8 +369,12 @@ footer {
   margin: 0 0.6rem;
 }
 
-footer img {
+.footer img {
   width: 45px;
+  transition: all 0.5s ease;
+}
+.footer img:hover {
+  transform: scale(1.2);
 }
 
 #marca {
